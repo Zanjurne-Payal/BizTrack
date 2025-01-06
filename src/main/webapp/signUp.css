@@ -1,0 +1,36 @@
+@charset "UTF-8";
+*{
+    padding:0%;
+    margin: 0%;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+}
+.main{
+    height: 93%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main form input{
+	width:30vw;
+	border : 2px solid black;
+}
+.main button{
+    width: 20vw;
+}
+
+@media (max-width:1000px) {
+    .main form input{
+        width:60vw;
+    }
+}

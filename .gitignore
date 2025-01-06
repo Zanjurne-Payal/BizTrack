@@ -1,0 +1,16 @@
+# Ignore compiled files
+*.class
+target/
+bin/
+
+# Ignore Eclipse files
+.classpath
+.project
+.settings/
+
+# Ignore IDE-specific files
+.idea/
+*.iml
+
+# Ignore sensitive files
+db-config.properties
